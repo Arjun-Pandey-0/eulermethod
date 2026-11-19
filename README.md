@@ -2,10 +2,10 @@
 An implementation of Euler's Method for numerically approximating solution to Ordinary Differential Equations 
 
 # Features
-*Euler's Method Solver: approximates $y(t)$ using linear approximations
-*`LogisticDiffEq`: Models Logistic growth with a growth rate $r$ and carrying capacity $k$
-*`ExponentialDiffEq`: Models exponential growth with growth rate $r$
-*New state-of-the-art plot of the approximation over the time interval 
+* Euler's Method Solver: approximates $y(t)$ using linear approximations
+* `LogisticDiffEq`: Models Logistic growth with a growth rate $r$ and carrying capacity $k$
+* `ExponentialDiffEq`: Models exponential growth with growth rate $r$
+* New state-of-the-art plot of the approximation over the time interval 
 
 # How to use
 In the "initialize variables" section, set the interval bymodifying `start_t` and `end_t`, change the step by editing `step`, set the initial condition by modifying `initial_cond`, and set the growth rate `r` and carrying capacity `k`
