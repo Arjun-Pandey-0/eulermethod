@@ -1,5 +1,5 @@
 ## Euler's Method 
-An implementation of Euler's Method for numerically approximating solution to Ordinary Differential Equations 
+An implementation of Euler's Method for numerically approximating solution to Ordinary Differential Equations in python
 
 # Features
 * Euler's Method Solver: approximates $y(t)$ using linear approximations
