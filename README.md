@@ -8,7 +8,7 @@ An implementation of Euler's Method for numerically approximating solution to Or
 * New state-of-the-art plot of the approximation over the time interval 
 
 # How to use
-In the "initialize variables" section, set the interval by modifying `start_t` and `end_t`, change the step by editing `step`, set the initial condition by modifying `initial_cond`, and set the growth rate `r` and carrying capacity `k`
+In the "initialize variables" section, set the interval by modifying `start_t` and `end_t`, change the step by editing `step`, set the initial condition by modifying `initial_cond`, and set the growth rate `r` and carrying capacity `k`.
 By default, it runs a logistic model. To change it to exponential, swap `LogisticDiffEq(k=k, r=r)` to `df = ExponentialDiffEq(r=r)`
 
 # What this repository contains
